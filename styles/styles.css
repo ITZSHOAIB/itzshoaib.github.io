@@ -524,6 +524,9 @@ section {
     text-align: center;
     padding-top: 3rem;
   }
+  .right-header .btn-con {
+    align-self: center;
+  }
   .header-content .left-header .image {
     margin: 0 auto;
     width: 90%;
