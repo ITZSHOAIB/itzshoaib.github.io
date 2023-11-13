@@ -197,6 +197,8 @@ section {
 }
 .header-content .right-header .name span {
   color: var(--color-secondary);
+  display: block;
+  font-size: max(6vw, 3.2rem);
 }
 .header-content .right-header p {
   margin: 1.5rem 0;
