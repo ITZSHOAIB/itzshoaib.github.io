@@ -12,7 +12,6 @@
     }
     .header-content{
         grid-template-columns: repeat(1, 1fr);
-        padding-bottom: 6rem;
     }
 
     .left-header{
@@ -32,6 +31,7 @@
         }
         .btn-con{
             align-self: center;
+            margin-bottom: 1rem;
         }
     }
     .header-content .left-header .image{
@@ -57,7 +57,6 @@
         grid-template-columns: repeat(1, 1fr);
         .right-about{
             grid-template-columns: repeat(2, 1fr);
-            padding-top: 2.5rem;
             align-self: auto;
             justify-self: auto;
         }
@@ -79,17 +78,6 @@
         }
     }
 
-    .portfolios{
-        grid-template-columns: repeat(1, 1fr);
-        padding-bottom: 6rem;
-        margin-top: 1rem;
-    }
-
-    .blogs{
-        grid-template-columns: repeat(1, 1fr);
-        padding-bottom: 6rem;
-    }
-
     .contact-content-con{
         flex-direction: column;
         .right-contact{
@@ -98,20 +86,16 @@
         }
         
     }
-    .contact-content-con .right-contact .i-c-2{
-        flex-direction: column;
-    }
-    .contact-content-con .right-contact .i-c-2 :last-child{
-        margin-left: 0;
-        margin-top: 1.5rem;
-    }
 
-    .contact-content-con .right-contact{
+    .contact-content-con .left-contact{
         margin-bottom: 6rem;
     }
 
+    .contact-content-con .left-contact .contact-icon{
+        justify-content: center;
+    }
+
     .contact-item{
-        flex-direction: column;
         margin: 1rem 0;
         p{
             font-size: 15px;
@@ -141,7 +125,7 @@
 
 @media screen and (max-width:1432px){
     .container{
-        padding: 7rem 11rem;
+        padding: 3rem 11rem;
     }
 
     .contact-content-con{
@@ -178,33 +162,15 @@
 
 
 @media screen and (max-width:1250px){
-    .blogs{
-        grid-template-columns: repeat(2, 1fr);
-        margin-top: 6rem;
-    }
-    .portfolios{
-        grid-template-columns: repeat(2, 1fr);
-    }
     .header-content .right-header{
         padding-right: 9rem;
     }
 
 }
-@media screen and (max-width:660px){
-    .blogs{
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .portfolios{
-        grid-template-columns: repeat(1, 1fr);
-    }
-}
 
 @media screen and (max-width:1070px){
     .about-container{
         grid-template-columns: repeat(1, 1fr);
-        .right-about{
-            padding-top: 2.5rem;
-        }
     }
     .main-title{
         h2{
@@ -221,14 +187,13 @@
 
 @media screen and (max-width:970px){
     .container{
-        padding: 7rem 6rem;
+        padding: 3rem 6rem;
     }
     .about-container{
         padding-right: 0rem;
     }
     .header-content{
         grid-template-columns: repeat(1, 1fr);
-        padding-bottom: 6rem;
     }
 
     .left-header{
@@ -255,7 +220,7 @@
 }
 @media screen and (max-width:700px){
     .container{
-        padding: 7rem 3rem;
+        padding: 3rem 3rem;
     }
     .about-stats .progress-bars{
         grid-template-columns: repeat(1, 1fr);
