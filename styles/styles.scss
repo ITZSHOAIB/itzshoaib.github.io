@@ -124,14 +124,12 @@ section {
             color: var(--color-grey-2);
             pointer-events: none;
         }
-    }
-
-    .active-btn {
-        background-color: var(--color-secondary);
-        transition: all .4s ease-in-out;
-
-        i {
-            color: var(--color-white);
+        &:active {
+            background-color: var(--color-secondary);
+            transform: translateY(-3px);
+            i {
+                color: var(--color-white);
+            }
         }
     }
 }

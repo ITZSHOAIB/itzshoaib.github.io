@@ -118,11 +118,11 @@ section {
   color: var(--color-grey-2);
   pointer-events: none;
 }
-.controls .active-btn {
+.controls .control:active {
   background-color: var(--color-secondary);
-  transition: all 0.4s ease-in-out;
+  transform: translateY(-3px);
 }
-.controls .active-btn i {
+.controls .control:active i {
   color: var(--color-white);
 }
 
