@@ -23,7 +23,7 @@ html {
   --color-grey-6: #12181b;
   --br-sm-2: 14px;
   --box-shadow-1: 0 3px 15px rgba(0, 0, 0, .3);
-  --image-background: #F56692;
+  --color-image-background: #F56692;
 }
 
 .light-mode {
@@ -38,7 +38,7 @@ html {
   --color-grey-4: #454e56;
   --color-grey-5: #efe7e7;
   --color-grey-6: #12181b;
-  --image-background: #27AE60;
+  --color-image-background: #27AE60;
 }
 
 body {
@@ -179,7 +179,7 @@ section {
   height: 90%;
   width: 68%;
   margin-left: 4rem;
-  background-color: var(--image-background);
+  background-color: var(--color-image-background);
   transition: all 0.4s ease-in-out;
 }
 .header-content .left-header .image img {
@@ -206,6 +206,56 @@ section {
 .header-content .right-header p {
   margin: 1.5rem 0;
   line-height: 2rem;
+}
+
+/*Certifications*/
+.certs-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  justify-self: center;
+  align-self: center;
+  width: 100%;
+  padding-top: 2rem;
+}
+.certs-section .cert {
+  border: 1px solid var(--color-image-background);
+  border-radius: 5px;
+  transition: all 0.4s ease-in-out;
+  box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.1);
+}
+.certs-section .cert:hover {
+  cursor: pointer;
+  transform: translateY(-5px);
+  border: 1px solid var(--color-secondary);
+  box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.32);
+}
+.certs-section .cert .cert-text {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.certs-section .cert .cert-text .large-text {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-secondary);
+}
+.certs-section .cert .cert-text .small-text {
+  padding-left: 3rem;
+  position: relative;
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: var(--color-grey-1);
+  letter-spacing: 2px;
+}
+.certs-section .cert .cert-text .small-text::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 15px;
+  width: 2rem;
+  height: 2px;
+  background-color: var(--color-grey-5);
 }
 
 /*About*/
@@ -558,6 +608,11 @@ section {
     align-self: auto;
     justify-self: auto;
   }
+  .certs-section {
+    grid-template-columns: repeat(2, 1fr);
+    align-self: auto;
+    justify-self: auto;
+  }
   .timeline {
     grid-template-columns: repeat(1, 1fr);
     padding-bottom: 4rem;
@@ -687,6 +742,15 @@ section {
   }
   .about-container .right-about {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .certs .main-title h2 {
+    font-size: 2.5rem;
+  }
+  .certs-section {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .certs-section .cert .cert-text .large-text {
+    font-size: 1.3rem;
   }
   .timeline {
     grid-template-columns: repeat(1, 1fr);
