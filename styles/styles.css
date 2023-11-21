@@ -257,6 +257,9 @@ section {
   height: 2px;
   background-color: var(--color-grey-5);
 }
+.certs-section .cert .cert-text .small-text i {
+  margin-left: 5px;
+}
 
 /*About*/
 .about-container {
