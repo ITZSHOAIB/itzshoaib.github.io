@@ -1,0 +1,31 @@
+---
+// astro imports
+import SkillCard from "./SkillCard.astro";
+import hardSkills from "@/data/hardSkills";
+import softSkills from "@/data/softSkills";
+---
+
+<div class="relative flex flex-col gap-8 text-n700 dark:text-n200 w-full mt-10">
+  {/*Skills section*/}
+  <div class="mb-4">
+    <h2 class="text-3xl font-bold mb-4">Hard Skills</h2>
+    <div class="grid grid-cols-1 gap-4">
+      {
+        hardSkills.map((skill) => (
+          <SkillCard {...skill} showDescription={true} />
+        ))
+      }
+    </div>
+  </div>
+  {/*Hobbies section*/}
+  <div class="mb-4">
+    <h2 class="text-2xl font-bold mb-4">Soft Skills</h2>
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+      {
+        softSkills.map((skill) => (
+          <SkillCard {...skill} showDescription={false} />
+        ))
+      }
+    </div>
+  </div>
+</div>

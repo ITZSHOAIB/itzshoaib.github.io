@@ -1,41 +1,31 @@
 interface Education {
-    title: string;
-    startDate: string;
-    endDate?: string;
-    school: string;
-    location: string;
-    description: string;
-    currentUni: boolean;
+  title: string;
+  startDate?: string;
+  endDate?: string;
+  school: string;
+  location: string;
 }
 
-const  education: Education[] = [
-    {
-        title: "General English",
-        startDate: "2024-09-01",
-        endDate: "",
-        school: "University Name",
-        location: "United States",
-        description: "Developed and maintained web applications using React, NodeJs, and MongoDB.",
-        currentUni: true,
-    },
-    {
-        title: "Bachelor of Science in Computer Science",
-        startDate: "2014-09-01",
-        endDate: "2018-06-30",
-        school: "University Name",
-        location: "United States",
-        description: "Developed and maintained web applications using React, NodeJs, and MongoDB.",
-        currentUni: false,
-    },
-    {
-        title: "Bachelor of Science in Computer Science",
-        startDate: "2012-09-01",
-        endDate: "2013-06-30",
-        school: "University Name",
-        location: "United States",
-        description: "Developed and maintained web applications using React, NodeJs, and MongoDB.",
-        currentUni: false,
-    },
+const education: Education[] = [
+  {
+    title: "Bahcelor of Science (Honours in Computer Science)",
+    startDate: "2016-07",
+    endDate: "2019-08",
+    school: "University of Calcultta",
+    location: "Kolkata, India",
+  },
+  {
+    title: "Higher Secondary Education",
+    endDate: "2016-06",
+    school: "Tiljala High School",
+    location: "Kolkata, India",
+  },
+  {
+    title: "Higher Secondary Education",
+    endDate: "2014-06",
+    school: "Tiljala High School",
+    location: "Kolkata, India",
+  },
 ];
 
 export default education;
