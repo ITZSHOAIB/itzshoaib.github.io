@@ -1,30 +1,140 @@
 interface HardSkill {
   name: string;
-  description: string;
-  icon: string;
+  skills: string[];
 }
 
 const hardSkills: HardSkill[] = [
   {
-    name: "AstroJs",
-    description: "My favorite static site generator for building modern websites",
-    icon: "astro_dark"
+    name: "Blockchain 🪙",
+    skills: [
+      "Solidity",
+      "Hardhat",
+      "Ethers.js",
+      "Web3.js",
+      "Wagmi",
+      "Viem",
+      "ConnectKit",
+      "Rainbowkit",
+      "Ethereum",
+      "Polygon",
+    ],
   },
   {
-    name: "NextJs",
-    description: "My favorite React framework for building modern web apps",
-    icon: "nextjs_icon_dark"
+    name: "Programming Language 💻",
+    skills: [
+      "JavaScript (Node JS)",
+      "TypeScript",
+      "Go",
+      "Ruby",
+      "Java",
+      "Python",
+      "C",
+      "C++",
+    ],
   },
   {
-    name: "NodeJs",
-    description: "I've been using NodeJs for backend development since 2018",
-    icon: "nodejs"
+    name: "Backend 🔙",
+    skills: [
+      "NestJS",
+      "NodeJS",
+      "ExpressJS",
+      "Mongoose",
+      "Flask",
+      "SocketIO",
+      "WebRTC",
+      "Ruby on Rails",
+    ],
   },
   {
-    name: "MongoDB",
-    description: "My favorite database for modern apps",
-    icon: "mongodb"
-  }
+    name: "Databases 🗄️",
+    skills: ["MongoDB", "Redis", "PostgreSQL", "AWS RDS"],
+  },
+  {
+    name: "Frontend 🎨",
+    skills: [
+      "ReactJS",
+      "Remix",
+      "NextJS",
+      "ReduxJS",
+      "Redux Toolkit",
+      "Material-UI",
+      "Styled-components",
+      "TailwindCSS",
+      "ShadcnUI",
+      "Radix UI",
+      "HTML",
+      "CSS",
+      "Flutter",
+      "ElectronJS",
+      "Webpack",
+      "RsPack",
+      "Vite",
+      "Rollup",
+    ],
+  },
+  {
+    name: "Testing Module 🧪",
+    skills: [
+      "Jest",
+      "Vitest",
+      "React Testing Library (RTL)",
+      "Selenium",
+      "Appium",
+    ],
+  },
+  {
+    name: "Client-Server Communication 🌐",
+    skills: ["REST", "GraphQL", "WebSockets"],
+  },
+  {
+    name: "Architecture 🏛️",
+    skills: [
+      "Monolith",
+      "Microservices",
+      "Micro Frontend",
+      "Module Federation",
+      "Backend for Frontend (BFF)",
+      "Apollo Federation",
+      "Mono Repo (NX, Yarn Workspaces)",
+    ],
+  },
+  {
+    name: "Cloud Services ☁️",
+    skills: [
+      "Azure",
+      "AWS",
+      "Heroku",
+      "Netlify",
+      "Vercel",
+      "Cloudflare",
+      "Firebase",
+    ],
+  },
+  {
+    name: "Repository 📂",
+    skills: ["Github", "Bitbucket", "Azure DevOps"],
+  },
+  {
+    name: "Containerization 📦",
+    skills: ["Docker", "Kubernetes"],
+  },
+  {
+    name: "CI/CD 🔄",
+    skills: ["Github Actions", "Jenkins"],
+  },
+  {
+    name: "Message Broker 📬",
+    skills: ["Kafka (Beginner level)", "RabbitMQ"],
+  },
+  {
+    name: "Design Pattern 🧩",
+    skills: [
+      "Domain Driven Design (DDD)",
+      "Behavior Driven Design (BDD)",
+      "Model View Controller (MVC)",
+      "Event Driven Architecture (EDA)",
+    ],
+  },
 ];
 
 export default hardSkills;
