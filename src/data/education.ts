@@ -8,20 +8,20 @@ interface Education {
 
 const education: Education[] = [
   {
-    title: "Bahcelor of Science (Honours in Computer Science)",
+    title: "Bachelor of Science (Honours in Computer Science)",
     startDate: "2016-07",
     endDate: "2019-08",
     school: "University of Calcultta",
     location: "Kolkata, India",
   },
   {
-    title: "Higher Secondary Education",
+    title: "Higher Secondary Education (12th)",
     endDate: "2016-06",
     school: "Tiljala High School",
     location: "Kolkata, India",
   },
   {
-    title: "Higher Secondary Education",
+    title: "Secondary Education (10th)",
     endDate: "2014-06",
     school: "Tiljala High School",
     location: "Kolkata, India",
