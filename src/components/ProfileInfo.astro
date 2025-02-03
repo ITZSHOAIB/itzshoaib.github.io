@@ -2,6 +2,7 @@
 // components imports
 import ProfileImage from "./ProfileImage.astro";
 import Social from "./Social.astro";
+import { BackgroundGradient } from "./ui/background-gradient";
 
 // config import
 import { ME } from "@/config";
@@ -11,12 +12,16 @@ const { name, profession } = ME;
 
 <div class={"w-full flex items-center justify-start mt-5"}>
   <div class="flex items-center gap-6 w-full">
-    <div
+    <!-- <div
       class={"border-[3px] border-primary-light dark:border-primary-dark p-1.5 rounded-full "}
       style={{ overflow: "hidden" }}
+    > -->
+    <BackgroundGradient
+      className="rounded-full p-1.5 bg-white dark:bg-zinc-900"
     >
       <ProfileImage />
-    </div>
+    </BackgroundGradient>
+    <!-- </div> -->
     <div class={"profile-info flex flex-col gap-2 w-full"}>
       <div class="info">
         <h1
