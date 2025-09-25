@@ -5,19 +5,19 @@ interface SoftSkill {
 
 const softSkills: SoftSkill[] = [
   {
-    name: "Problem Solving",
-    icon: "tools-fill",
-  },
-  {
-    name: "Leadership",
+    name: "Technical Leadership",
     icon: "group-fill",
   },
   {
-    name: "Communication",
+    name: "Architecture Design",
+    icon: "tools-fill",
+  },
+  {
+    name: "Mentoring & Collaboration",
     icon: "message-2-fill",
   },
   {
-    name: "Time Management",
+    name: "Innovation & Problem Solving",
     icon: "time-fill",
   },
 ];

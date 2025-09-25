@@ -5,6 +5,21 @@ interface HardSkill {
 
 const hardSkills: HardSkill[] = [
   {
+    name: "AI Agent Frameworks 🤖",
+    skills: [
+      "Langgraph",
+      "Langchain",
+      "OpenAI",
+      "LlamaIndex",
+      "MCP",
+      "A2A",
+      "VectorDB",
+      "RAG",
+      "Multi-agent systems",
+      "Agent workflow design",
+    ],
+  },
+  {
     name: "Blockchain 🪙",
     skills: [
       "Solidity",
@@ -17,6 +32,9 @@ const hardSkills: HardSkill[] = [
       "Rainbowkit",
       "Ethereum",
       "Polygon",
+      "Zero Knowledge Proof (ZKP)",
+      "Starlight",
+      "ERC-1155",
     ],
   },
   {
@@ -43,11 +61,12 @@ const hardSkills: HardSkill[] = [
       "SocketIO",
       "WebRTC",
       "Ruby on Rails",
+      "Ruby",
     ],
   },
   {
-    name: "Databases 🗄️",
-    skills: ["MongoDB", "Redis", "PostgreSQL", "AWS RDS"],
+    name: "Databases & Storage 🗄️",
+    skills: ["MongoDB", "Redis", "PostgreSQL", "AWS RDS", "EFS", "S3"],
   },
   {
     name: "Frontend 🎨",
@@ -62,12 +81,16 @@ const hardSkills: HardSkill[] = [
       "TailwindCSS",
       "ShadcnUI",
       "Radix UI",
+      "Gamut (In-house design library)",
+      "NextAuth",
       "HTML",
       "CSS",
       "Flutter",
       "ElectronJS",
       "Webpack",
       "RsPack",
+      "RSPack",
+      "SWC",
       "Vite",
       "Rollup",
     ],
@@ -124,7 +147,7 @@ const hardSkills: HardSkill[] = [
   },
   {
     name: "Message Broker 📬",
-    skills: ["Kafka (Beginner level)", "RabbitMQ"],
+    skills: ["Kafka", "RabbitMQ"],
   },
   {
     name: "Design Pattern 🧩",
