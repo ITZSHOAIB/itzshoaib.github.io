@@ -46,7 +46,7 @@ const workExperience: WorkExperience[] = [
     company: "Skillsoft",
     location: "India (Remote)",
     goals: [
-      "Architected and led the development of LX Studio, a next-gen agentic AI-driven learning experience platform, from the ground up—proposing and implementing its foundational architecture now used org-wide.",
+      "Architected and led the development of LX Design Studio, a next-gen agentic AI-driven learning experience platform, from the ground up—proposing and implementing its foundational architecture now used org-wide.",
       "Designed efficient RAG pipelines using different chunking strategies, rerankers on top of large document-based knowledge sources for AI-powered learning.",
       "Designed and built a custom agent framework NPM library adopted across app teams, dramatically reducing AI agent development time and integrating key systems like multi-agent workflow, Tool integration, Chat Storing conventions, MCP, Guardrails, and RAG pipelines.",
       "Acted as de facto tech lead in a flat team structure, mentoring peers and driving team-wide ownership, autonomy, and architectural quality through initiative and collaboration.",
