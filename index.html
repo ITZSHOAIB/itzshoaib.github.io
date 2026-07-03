@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="robots" content="noindex, follow" />
+        <meta name="theme-color" content="#000000" />
+        <meta http-equiv="refresh" content="2; url=https://sohab.dev/" />
+        <link rel="canonical" href="https://sohab.dev/" />
+        <title>Redirecting to sohab.dev</title>
+        <style>
+            :root {
+                color-scheme: dark;
+                font-family:
+                    Inter,
+                    ui-sans-serif,
+                    system-ui,
+                    -apple-system,
+                    BlinkMacSystemFont,
+                    "Segoe UI",
+                    sans-serif;
+                font-synthesis: none;
+                text-rendering: optimizeLegibility;
+                -webkit-font-smoothing: antialiased;
+                --bg: #000000;
+                --panel: #050505;
+                --panel-soft: #0a0a0a;
+                --text: #fafafa;
+                --muted: #a1a1aa;
+                --muted-strong: #d4d4d8;
+                --line: #27272a;
+                --line-hover: #52525b;
+            }
+
+            * {
+                box-sizing: border-box;
+            }
+
+            html {
+                min-width: 320px;
+                background: var(--bg);
+            }
+
+            body {
+                min-width: 320px;
+                min-height: 100vh;
+                margin: 0;
+                background: var(--bg);
+                color: var(--text);
+            }
+
+            a {
+                color: inherit;
+                font: inherit;
+                text-decoration: none;
+            }
+
+            .page {
+                min-height: 100vh;
+                display: grid;
+                grid-template-rows: auto 1fr;
+            }
+
+            header {
+                min-height: 4rem;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 1rem;
+                border-bottom: 1px solid var(--line);
+                background: rgba(0, 0, 0, 0.88);
+                padding: 0 1rem;
+            }
+
+            .brand {
+                font-weight: 600;
+                letter-spacing: 0;
+            }
+
+            .status {
+                border: 1px solid var(--line);
+                border-radius: 0.375rem;
+                padding: 0.35rem 0.55rem;
+                color: var(--muted-strong);
+                font-size: 0.75rem;
+                font-weight: 700;
+            }
+
+            main {
+                display: grid;
+                place-items: center;
+                padding: 1rem;
+            }
+
+            .panel {
+                width: min(100%, 42rem);
+                border: 1px solid var(--line);
+                border-radius: 0.75rem;
+                background: var(--panel);
+            }
+
+            .content {
+                padding: 2rem;
+            }
+
+            .kicker {
+                margin: 0 0 1rem;
+                color: var(--muted);
+                font-size: 0.8125rem;
+                font-weight: 700;
+                letter-spacing: 0.14em;
+                text-transform: uppercase;
+            }
+
+            h1 {
+                max-width: 11ch;
+                margin: 0;
+                font-size: clamp(3rem, 13vw, 6rem);
+                font-weight: 600;
+                line-height: 0.92;
+                letter-spacing: 0;
+            }
+
+            .copy {
+                max-width: 33rem;
+                margin: 1.5rem 0 0;
+                color: var(--muted);
+                font-size: 1rem;
+                line-height: 1.7;
+            }
+
+            .progress {
+                height: 1px;
+                margin-top: 2rem;
+                overflow: hidden;
+                background: var(--line);
+            }
+
+            .progress span {
+                display: block;
+                width: 100%;
+                height: 100%;
+                background: var(--text);
+                transform-origin: left;
+                animation: load 1.8s ease forwards;
+            }
+
+            .actions {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 0.625rem;
+                border-top: 1px solid var(--line);
+                padding: 1rem;
+            }
+
+            .primary,
+            .secondary {
+                display: inline-flex;
+                min-height: 2.5rem;
+                align-items: center;
+                justify-content: center;
+                border-radius: 0.375rem;
+                padding: 0.625rem 0.875rem;
+                font-size: 0.875rem;
+                font-weight: 700;
+                transition:
+                    background 160ms ease,
+                    border-color 160ms ease;
+            }
+
+            .primary {
+                background: var(--text);
+                color: var(--bg);
+            }
+
+            .primary:hover {
+                background: #e4e4e7;
+            }
+
+            .secondary {
+                border: 1px solid var(--line);
+                background: var(--panel-soft);
+                color: #e4e4e7;
+            }
+
+            .secondary:hover {
+                border-color: var(--line-hover);
+                background: #111111;
+            }
+
+            @keyframes load {
+                from {
+                    transform: scaleX(0);
+                }
+
+                to {
+                    transform: scaleX(1);
+                }
+            }
+
+            @media (max-width: 520px) {
+                header {
+                    padding: 0 0.875rem;
+                }
+
+                .content {
+                    padding: 1.5rem;
+                }
+
+                .actions a {
+                    width: 100%;
+                }
+            }
+        </style>
+        <script>
+            window.setTimeout(function () {
+                window.location.replace("https://sohab.dev/");
+            }, 1800);
+        </script>
+    </head>
+    <body>
+        <div class="page">
+            <header>
+                <a class="brand" href="https://sohab.dev/" rel="me"
+                    >sohab.dev</a
+                >
+                <span class="status">Moved</span>
+            </header>
+            <main>
+                <section class="panel" aria-labelledby="redirect-title">
+                    <div class="content">
+                        <p class="kicker">Portfolio redirect</p>
+                        <h1 id="redirect-title">Sohab Sk</h1>
+                        <p class="copy">
+                            This portfolio has moved from GitHub Pages to a new
+                            home. Redirecting you to the current site now.
+                        </p>
+                        <div class="progress" aria-hidden="true">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="actions">
+                        <a class="primary" href="https://sohab.dev/" rel="me"
+                            >Open sohab.dev</a
+                        >
+                        <a
+                            class="secondary"
+                            href="https://github.com/ITZSHOAIB/portfolio"
+                            >View source</a
+                        >
+                    </div>
+                </section>
+            </main>
+        </div>
+    </body>
+</html>
